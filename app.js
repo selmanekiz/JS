@@ -26,3 +26,36 @@
 // alert("iki sayının toplamı : " + (a+b));
 
 // alert("F5 tuşuna lütfen basmayınız")
+
+// console.log(window);
+// console.log(window.location.origin);
+// console.log(location.origin); //window yazmasak da olur
+// console.error("hata için");
+// console.warn("uyarı için");
+// console.log("normal yazmak için");
+
+// var degiskenIsmi = 10 ;
+// console.log(degiskenIsmi);
+
+// var a = 5; // global scope (her yereden erişebilirsiniz)
+
+// function method1(){
+//     var sayi = 10; //function scope (süslü parantezler içerisinde erişilebilir)
+//     console.log(sayi); //konsola yazar
+// }
+// // console.log(sayi); //konsola yazamaz
+// method1()
+
+function method1(){
+    var c = 1 // function scope
+    if(true){
+        var a=5  //block scope (sadece if in içinde erişilebilir)
+    }
+    while(true){
+        var b = 10 //block scope (sadece while içinde erişilebilir)
+    }
+    for(let i = 1; i<=10 ; ++i){
+
+    }
+
+}
