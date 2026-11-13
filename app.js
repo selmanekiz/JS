@@ -46,16 +46,84 @@
 // // console.log(sayi); //konsola yazamaz
 // method1()
 
-function method1(){
-    var c = 1 // function scope
-    if(true){
-        var a=5  //block scope (sadece if in içinde erişilebilir)
-    }
-    while(true){
-        var b = 10 //block scope (sadece while içinde erişilebilir)
-    }
-    for(let i = 1; i<=10 ; ++i){
+// function method1(){
+//     var c = 1 // function scope
+//     if(true){
+//         var a=5  //block scope (sadece if in içinde erişilebilir)
+//     }
+//     while(true){
+//         var b = 10 //block scope (sadece while içinde erişilebilir)
+//     }
+//     for(let i = 1; i<=10 ; ++i){
 
-    }
+//     }
 
-}
+// }
+
+//? var - let - const
+// var : block scope olmuyor, block içinde de olsa function scope oluyor bu yüzden ram de çok yer kaplıyor
+// let/const : block scope özelliğine sahiptir
+// let ve const arasındaki fark const sabittir değişmez
+
+// const a=5;
+// a=10;  // hata veriyor
+// console.log(a);
+
+// let a=5;
+// a=10; // çalışıyor
+// console.log(a);
+
+// const user = {
+// username: "selman" ,
+// password: "123"
+// }
+// user.username="selmanekiz";
+// console.log(user);
+
+/*
+*Veri Tipleri
+1-String : "selman" (tırnak içerisinde yazılanlar)
+2-Number : sayılar (tırnak içinde olmayan)
+3-Boolean : true ve false
+4-Null : boş
+5-Undefined : tanımlanmamış , değer atanmamış
+6-Object
+7-Function
+
+*/
+//string
+// let isim="selman";
+// document.write(isim);
+// document.write(typeof isim); //string
+
+//number
+// let sayi=10
+// document.write(sayi);
+// document.write(typeof sayi);
+
+//boolean
+// document.write(5<2); //false
+
+//null
+// let a = null;
+// a=7;
+// document.write(a);
+
+//undefined
+// let a;
+// document.write(a);
+
+//object
+// let insan = {
+//     isim:"selman",
+//     soyisim:"ekiz",
+//     yas:"20"
+// }
+// document.write(typeof insan);
+
+//function
+// let func = function(){
+//     document.write("Merhaba")
+// }
+// func();
+// document.write(typeof func);
