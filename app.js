@@ -127,3 +127,20 @@
 // }
 // func();
 // document.write(typeof func);
+
+//? ATAMA OPERATÖRLERİ
+/*
+    =   : atama operatörü (sağdaki değeri sola ata)
+    ==  : eşittir (sadece değerlere bakar ; console.log(5=="5") == true)
+    === : hep tipleri hem de değerlerinin eşit olup olmadığına bakar 
+    +=  : arttırma (sayı += 2)=(sayı = sayı + 2)
+    -=  : azaltma
+    *=  : çarpma
+    /=  : bölme
+    %=  :mod alma
+    **= :kuvvet alma (sayı = sayı**2)=(sayı**=2)=(sayı^2)
+
+*/
+
+// var sayi = 3;
+// document.write(sayi**=5); //243
