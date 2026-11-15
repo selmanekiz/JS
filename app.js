@@ -144,3 +144,11 @@
 
 // var sayi = 3;
 // document.write(sayi**=5); //243
+
+/* 
+
+&& : ve 
+|| : veya
+!  : değil
+zaten biliyordum
+*/
