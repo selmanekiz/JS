@@ -163,3 +163,11 @@ zaten biliyordum
 >= : büyük eşit mi
 
 */
+
+// alert("uyarı");
+
+// let sayi = prompt("aklınızdan bir sayı tutun: "); //kullanıcıdan alınan değerler her zaman string değerindedir
+// alert("tuttuğunuz sayı: " + sayi);
+
+// let sonuc = confirm("Silmek istediğinize emin misiniz?"); //tamam => true :::: iptal => false
+// alert(sonuc); 
